@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
+// Describe the route to your folder. Names are always entered from left to right
 const pasta: string = path.join(__dirname, "icons");
 
 let nomesDosArquivos: string[] = [];
